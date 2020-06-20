@@ -15,8 +15,6 @@ def coin_flip(call, amount):
     result = "lost"
     total_amount = money - amount
   
-  print(
-    f"You flipped {coin_toss} and you called {call}! You {result} and now have {total_amount}"
-  )
+  print(f"You flipped {coin_toss} and you called {call}! You {result} and now have {total_amount}")
   
 coin_flip("Heads", 10)
